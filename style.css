@@ -4,7 +4,7 @@
 }
 
 .hmmm {
-    background-color: #634080;
+    background-color: #574169;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
   
-    background-color: #483f4f;
+    background-color: #473c4e;
     /* background-color: rgb(37, 42, 46); */
   }
   
@@ -125,7 +125,7 @@ body {
   }
   
   .dropdown-item:hover {
-      background-color: #503369;
+      background-color: #54376d;
   }
   
   .dropdown-center {
