@@ -4,7 +4,7 @@
 }
 
 .hmmm {
-    background-color: #574169;
+  background-color: #24192b;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
   
-    background-color: #473852;
+    background-color: #24192b;
     /* background-color: rgb(37, 42, 46); */
   }
   
