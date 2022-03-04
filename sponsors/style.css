@@ -7,6 +7,21 @@
 background-color: #24192b;
 }
 
+.waconia {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.text-right {
+  float: right;
+  padding-right: 40%;
+}
+
+.picture-left {
+  vertical-align: middle;
+}
+
 body {
   min-height: 100vh;
   display: flex;
