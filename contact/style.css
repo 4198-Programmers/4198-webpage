@@ -145,6 +145,11 @@
       max-width: 1320px;
     }
   }
+
+.profile-text {
+    line-height: 200%;
+    font-size: 150%;
+}
   
 .circular-square {
     border-top-left-radius: 50% 50%; 
