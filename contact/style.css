@@ -152,6 +152,10 @@
         font-size: 100%;
 }
 
+.heheimage {
+  padding-left: 8%
+}
+
     @media (max-width: 400px)  {
         .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
             max-width: 300px;
@@ -186,6 +190,10 @@
   }
 
   @media (min-width: 600px)  {
+
+    .heheimage {
+
+    }
 
     .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
         max-width: 1320px;
