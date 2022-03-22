@@ -156,3 +156,7 @@ p {
   border-radius: 10px;
   width: 100%;
 }
+
+.btn-yellow {
+  background-color: #FCF87F;
+}
