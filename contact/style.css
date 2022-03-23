@@ -160,8 +160,8 @@
 
     @media (max-width: 400px)  {
       .image-thing {
-        height: 100px;
-        width: 100px;
+        height: 125px;
+        width: 125px;
       }
 
       .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -170,8 +170,8 @@
 
      .profile-text {
           line-height: 175%;
-          font-size: 50%;
-          width: 100px;
+          font-size: 75%;
+          width: 125px;
       }
     }
 
@@ -192,7 +192,7 @@
     .profile-text {
       line-height: 175%;
       font-size: 110%;
-      width: 150px
+      width: 170px
   }
   }
 
