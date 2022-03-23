@@ -149,46 +149,78 @@
 
 .profile-text {
     line-height: 175%;
-        font-size: 100%;
+    font-size: 100%;
+    width: 50px
+}
+
+.image-thing {
+  height: 50px;
+  width: 50px;
 }
 
 
     @media (max-width: 400px)  {
-        .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-            max-width: 300px;
-          }
+      .image-thing {
+        height: 100px;
+        width: 100px;
+      }
 
-        .profile-text {
-            line-height: 175%;
-            font-size: 100%
+      .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+          max-width: 300px;
         }
+
+     .profile-text {
+          line-height: 175%;
+          font-size: 50%;
+          width: 100px;
+      }
     }
 
   @media (min-width: 401px) {
     .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
         max-width: 350px;
       }
+
+      .image-thing {
+        height: 150px;
+        width: 150px;
+      }
       
       .profile-text {
         line-height: 175%;
         font-size: 125%
     }
+    .profile-text {
+      line-height: 175%;
+      font-size: 110%;
+      width: 150px
+  }
   }
 
   @media (min-width: 501px) {
+
+    .image-thing {
+      height: 200px;
+      width: 200px;
+    }
+
     .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
         max-width: 400px;
       }
 
       .profile-text {
           line-height: 175%;
-          font-size: 150%
+          font-size: 150%;
+          width: 250px
       }
   }
 
   @media (min-width: 600px)  {
 
-
+    .image-thing {
+      height: 250px;
+      width: 250px;
+    }
 
     .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
         max-width: 1320px;
@@ -197,14 +229,10 @@
     .profile-text {
         line-height: 200%;
         font-size: 175%;
+        width: 300px;
     }
   }
 
-
-  
 .circular-square {
-    border-top-left-radius: 50% 50%; 
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%; 
-    border-bottom-left-radius: 50% 50%;
+  border-radius: 50%;
 }
