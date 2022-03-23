@@ -160,3 +160,51 @@ p {
     max-width: 1320px;
   }
 }
+
+.hehe-text {
+  white-space: nowrap;
+  font-size: 5vw;
+  width: fit-content;
+  text-align: center;
+  margin:0 auto;
+}
+
+@media (min-width: 300px) {
+  .hehe-text {
+    white-space: nowrap;
+    font-size: 5vw;
+    width: fit-content;
+    text-align: center;
+    margin:0 auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .hehe-text {
+    white-space: nowrap;
+    font-size: 4vw;
+    width: fit-content;
+    text-align: center;
+    margin:0 auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .hehe-text {
+    white-space: nowrap;
+    font-size: 3vw;
+    width: fit-content;
+    text-align: center;
+    margin:0 auto;
+  }
+}
+
+@media (min-width: 1164px) {
+  .hehe-text {
+    white-space: nowrap;
+    font-size: 2vw;
+    width: fit-content;
+    text-align: center;
+    margin:0 auto;
+  }
+}
