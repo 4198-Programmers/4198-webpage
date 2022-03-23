@@ -145,12 +145,18 @@
       max-width: 1320px;
     }
   }
-
-  .text-padding {
-      padding-left: 15%;
-      padding-right: 15%;
+  
+  .center-text {
+    text-align: center;
   }
-
-  .border-thing {
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  .btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .btn-yellow {
+    background-color: #FCF87F;
   }
