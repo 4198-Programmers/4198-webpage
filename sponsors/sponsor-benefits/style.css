@@ -18,6 +18,15 @@
   h1 {
     color: white;
   }
+
+
+  h2 {
+    color: rgb(225, 225, 225);
+  }
+  
+  h5  {
+    color: rgb(225, 225, 225);
+  }
   
   p {
     color: rgb(200, 200, 200);
@@ -159,4 +168,33 @@
   
   .btn-yellow {
     background-color: #FCF87F;
+  }
+
+  .bullet-list {
+    color: rgb(200, 200, 200);
+    font-size: 100%;
+    list-style-position: outside;
+    word-wrap:inherit;
+    width: 85%
+  }
+
+  @media (min-width: 700px) {
+    .bullet-list {
+      width: 75%;
+      font-size: 125%
+    }
+  }
+
+  @media (min-width: 1100px) {
+    .bullet-list {
+      width: 60%;
+      font-size: 125%
+    }
+  }
+  
+  @media (min-width: 1500px) {
+    .bullet-list {
+      width: 50%;
+      font-size: 125%
+    }
   }
