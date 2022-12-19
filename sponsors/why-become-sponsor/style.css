@@ -4,15 +4,21 @@
   }
   
   .hmmm {
-  background-color: #24192b;
+  background-color: #24192b00;
   }
   
   body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #24192b;
+    background-color: #130810;
+    /* background-image: linear-gradient(to top right, #130810, #271121); */
+    max-height: 100%
     /* background-color: rgb(37, 42, 46); */
+  }
+  
+  .first-gradient {
+    background-image: linear-gradient(to top right, #130810, #271121);
   }
   
   h1 {
@@ -44,7 +50,7 @@
   }
   
   .scale-button:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
   }
   
   .dropdown-menu {
