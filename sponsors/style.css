@@ -164,12 +164,14 @@
     }
   }
   
-  .hehe-text {
+  .header-text {
     white-space: nowrap;
-    font-size: 5vw;
     width: fit-content;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin:0 auto;
+    font-size: 32px;
   }
   
   .gradient {
@@ -179,15 +181,15 @@
   }
   
   @media (min-width: 300px) {
-    .hehe-text {
+    .header-text {
       white-space: nowrap;
-      font-size: 5vw;
+      font-size: 32px;
       width: fit-content;
     }
   }
   
   @media (min-width: 600px) {
-    .hehe-text {
+    .header-text {
       white-space: nowrap;
       font-size: 3.5vw;
       width: fit-content;
@@ -195,17 +197,52 @@
   }
   
   @media (min-width: 800px) {
-    .hehe-text {
+    .header-text {
       white-space: nowrap;
-      font-size: 3vw;
+      font-size: 32px;
       width: fit-content;
     }
   }
   
   @media (min-width: 1164px) {
-    .hehe-text {
+    .header-text {
       white-space: nowrap;
-      font-size: 1.5vw;
+      font-size: 32px;
       width: fit-content;
     }
   }
+
+  .person {
+    /* width: 50%; */
+    padding-top: 5%;
+}
+
+@media (max-width: 1125px) {
+
+    .person {
+        width: 100%;
+        align-items: center;
+        float: none;
+    }
+
+    .header-text {
+        font-size: 32px;
+    }
+
+}
+
+@media (min-width: 1126px) {
+
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1300px;
+      }
+
+    .person {
+        width:50%
+    }
+
+    .header-text {
+        font-size: 64px;
+    }
+
+}

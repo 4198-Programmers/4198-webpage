@@ -167,7 +167,7 @@
 
 .hehe-text {
     white-space: nowrap;
-    font-size: 4vw;
+    font-size: 16px;
     width: fit-content;
     text-align: center;
     margin:0 auto;
@@ -187,6 +187,10 @@
           line-height: 175%;
           font-size: 75%;
           width: 150px;
+      }
+
+      .hehe-text {
+        font-size: 32px;
       }
     }
 
@@ -208,7 +212,9 @@
       line-height: 175%;
       font-size: 110%;
       width: 170px
-  }
+    }
+    .hehe-text {
+        font-size: 32px;}
   }
 
   @media (min-width: 550px) {
@@ -219,7 +225,7 @@
     }
 
     .hehe-text {
-        font-size: 8vw;
+        font-size: 32px;
     }
 
     .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -249,6 +255,10 @@
         font-size: 175%;
         width: 300px;
     }
+
+    .hehe-text {
+        font-size: 64px;
+    }
   }
 
 .circular-square {
@@ -272,11 +282,6 @@
         align-items: center;
         float: none;
     }
-
-    .hehe-text {
-        font-size: 6vw;
-    }
-
 }
 
 @media (min-width: 1126px) {
@@ -290,7 +295,7 @@
     }
 
     .hehe-text {
-        font-size: 4vw;
+        font-size: 64px;
     }
 
 }
