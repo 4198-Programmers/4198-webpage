@@ -1,12 +1,38 @@
+  :root {
+    font-family: 'Poppins', sans-serif;
+    --text: #f0f0f0;
+    --secondary-text: #cbd3da;
+    --bg: #130810;
+    --primary: #5c2f54;
+    --secondary: #3b2e3e;
+    --accent: #bd84ff;
+    --font-scale: 1.333;
+    --p: 1rem;
+    --h5: calc(var(--p) * var(--font-scale));
+    --h4: calc(var(--h5) * var(--font-scale));
+    --h3: calc(var(--h4) * var(--font-scale));
+    --h2: calc(var(--h3) * var(--font-scale));
+    --h1: calc(var(--h2) * var(--font-scale));
+    --small: calc(var(--p) / var(--font-scale));
+
+    --margin-lg: 0 12%;
+    --margin-md: 0 6%;
+
+    --border1: 1rem;
+    --border05: 0.5rem;
+}
+
+* {
+    font-family: 'Poppins', ui-sans-serif;
+}
+
+.body {
+    font-family: 'Poppins';
+  }
+
 .BAH {
     font-size: 350px;
     color: white;
-  }
-  
-  .waconia {
-    display: flex;
-    align-items: center;
-    justify-content: center
   }
   
   .text-right {
@@ -157,10 +183,21 @@
   .btn-color {
       background-color: #5c2f54;
     }
+
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsor {
+  margin: 1vh 1vw 1vh 1vw;
+}
   
   @media (min-width: 1400px) {
     .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-      max-width: 1320px;
+      max-width: 20000px;
     }
   }
   
@@ -171,7 +208,8 @@
     margin-left: auto;
     margin-right: auto;
     margin:0 auto;
-    font-size: 32px;
+    text-wrap: wrap;
+    font-size: 6vw;
   }
   
   .gradient {
@@ -182,8 +220,9 @@
   
   @media (min-width: 300px) {
     .header-text {
+      text-wrap: wrap;
       white-space: nowrap;
-      font-size: 32px;
+      font-size: 6vw;
       width: fit-content;
     }
   }
@@ -191,7 +230,7 @@
   @media (min-width: 600px) {
     .header-text {
       white-space: nowrap;
-      font-size: 3.5vw;
+      font-size: 2em;
       width: fit-content;
     }
   }
@@ -207,7 +246,7 @@
   @media (min-width: 1164px) {
     .header-text {
       white-space: nowrap;
-      font-size: 32px;
+      font-size: 48px;
       width: fit-content;
     }
   }
@@ -226,7 +265,7 @@
     }
 
     .header-text {
-        font-size: 32px;
+        /* font-size: 48px; */
     }
 
 }
