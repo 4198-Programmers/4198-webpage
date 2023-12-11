@@ -19,43 +19,52 @@
   <meta data-react-helmet="true" name="theme-color" content="#1c6db">
   <meta property="og:image" content="https://raw.githubusercontent.com/4198-Programmers/4198-webpage/main/RobocatsLogo.png">
   <meta content="#7325a3" name="theme-color" />
+  <meta name="darkreader-lock">
 </head>
 
-<body>
+<body class="gradient">
 
   <!-- Where Navbar Starts-->
-  <nav class="navbar navbar-expand-lg navbar-dark hmmm">
-    <div class="container-fluid">
-        <a href="/"><img src="/Source/RobocatsLogo.png" alt="Robocats Logo" width="52.6" height="38"/></a>
-        <a class="navbar-brand px-lg-4" href="/">Team 4198</a>
-        <!-- Toggle button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <!--<li class="nav-item">
-              <a class="nav-link text-light" href="/yes">YES</a>
-            </li>-->
-            <li class="nav-item">
-              <a class="nav-link text-light" href="/about">About</a>
-            </li>
+    <button type="button" class="btn top-btn btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    </button>
+    <div class="first-gradient fade-in fade-in-slow">
+    <!-- Where Navbar Starts-->
+      <nav class="navbar navbar-expand-lg navbar-dark hmmm">
+        <div class="container-fluid">
+            <a href="/"><img src="/Source/RobocatsLogo.png" alt="Robocats Logo" width="52.6" height="38"/></a>
+            <a class="navbar-brand px-lg-4" href="/">Team 4198</a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <!--<li class="nav-item">
+                  <a class="nav-link text-light" href="/yes">YES</a>
+                </li>-->
+                <li class="nav-item">
+                  <a class="nav-link text-light px-sm-4" href="/about">About</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link text-light px-sm-4" href="/contact">Contact Us</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link text-light px-sm-4" href="/events">Events</a>
+                </li>
+  
+                <li class="nav-item">
+                  <!-- <a class="nav-link disabled">Placeholder</a> -->
+                  <a class="nav-link text-light px-sm-4" href="/sponsors">Sponsors</a>
+                </li>
+  
+              </ul>
+            </div>
+          </div>
+        </nav>
 
-            <li class="nav-item">
-              <a class="nav-link text-light" href="/contact">Contact Us</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link text-light" href="/events">Events</a>
-            </li>
-            <li class="nav-item">
-              <!-- <a class="nav-link disabled">Placeholder</a> -->
-              <a class="nav-link text-light" href="/sponsors">Sponsors</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
   <!-- Where the contnet of the page starts -->
 
@@ -73,8 +82,8 @@
             </row>
             <row>
                 <div class="d-flex justify-content-around" style="padding-top: 15%;">
-                  <button type="button" class="btn btn-color btn-lg px-4 scale-button"><a href="/" style="text-decoration: none; color: black;">Go Home</a></button>
-                    <button type="button" class="btn btn-color btn-lg scale-button" onclick="history.back()" style="text-decoration: none; color: black;"><a>Go Back</a></button>
+                  <a class="primary-button" href="/">Go Home</a>
+                  <a class="primary-button" onclick="history.back()">Go Back</a>
                 </div>
             </row>
         </div>
@@ -85,19 +94,21 @@
   <!-- Where the footer starts -->
 
   <div class="container footer">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-3 border-top">
       <div class="col-md-4 d-flex align-items-center">
         <span class="text">2023 RoboCats</span>
       </div>
 
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="link-light" href="https://www.instagram.com/4198robocatsofficial" target="_blank"><i
-                  class="fa fa-instagram"></i></a></li>
-          <li class="ms-3"><a class="link-light" href="https://twitter.com/robocats_4198" target="_blank"><i class="fa fa-twitter"></i></a>
-          <li class="ms-3"><a class="link-light" href="https://www.facebook.com/RoboCats4198" target="_blank"><i class="fa fa-facebook"></i></a>
-          <li class="ms-3"><a class="link-light" href="https://github.com/4198-Programmers" target="_blank"><i class="fa fa-github"></i></a>
-          <li class="ms-3"><a class="link-light" href="https://www.youtube.com/@RoboCats4198/featured" target="_blank"><i class="fa fa-youtube"></i></a>
-          <li class="ms-3"><a class="link-light" href="https://www.tiktok.com/@team4198" target="_blank"><i class="fa fa-tiktok"></i></a>
+        <li class="ms-3"><a class="link-light" href="https://www.instagram.com/4198robocatsofficial" target="_blank"><i
+              class="fa fa-instagram"></i></a></li>
+        <li class="ms-3"><a class="link-light" href="https://twitter.com/robocats_4198" target="_blank"><i class="fa fa-twitter"></i></a>
+        <li class="ms-3"><a class="link-light" href="https://www.facebook.com/RoboCats4198" target="_blank"><i class="fa fa-facebook"></i></a>
+        <li class="ms-3"><a class="link-light" href="https://github.com/4198-Programmers" target="_blank"><i class="fa fa-github"></i></a>
+        <li class="ms-3"><a class="link-light" href="https://www.youtube.com/@RoboCats4198/featured" target="_blank"><i class="fa fa-youtube"></i></a>
+        <li class="ms-3"><a class="link-light" href="https://www.tiktok.com/@team4198" target="_blank"><i class="fa fa-tiktok"></i></a>
+        <li class="ms-3"><a href="https://www.thebluealliance.com/team/4198/" target="_blank"> <img src="/Source/Photos/tba.png" width="10em" /></a></li>
+        <!-- https://www.youtube.com/@RoboCats4198/featured -->
       </ul>
     </footer>
   </div>

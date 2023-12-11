@@ -184,6 +184,52 @@
       background-color: #5c2f54;
     }
 
+.primary-button {
+    padding: 0.5em 1em;
+    background-color: var(--primary);
+    color: var(--text);
+    border-radius: 6px;
+    transition: transform ease 0.2s, box-shadow ease 0.2s;
+    display: inline-block;
+    font-size: var(--h5);
+    z-index: 2;
+    white-space: nowrap;
+    color: rgb(248, 227, 253);
+    text-decoration: none;
+}
+
+.primary-button:hover {
+    transform: translate(0, -3px);
+    color: var(--text);
+    box-shadow: 0 20px 80px -10px var(--primary);
+}
+
+.secondary-button {
+    padding: 0.5em 2em;
+    background-color: var(--secondary);
+    color: var(--text);
+    border-radius: 6px;
+    display: inline-block;
+    font-size: var(--p);
+    z-index: 1;
+    cursor: pointer;
+    transition: transform ease 0.2s;
+    white-space: nowrap;
+}
+
+.secondary-button:hover {
+    transform: translate(0, -3px);
+    transition: transform ease 0.2s;
+}
+
+.secondary-color-box {
+    background-color: var(--secondary);
+    color: var(--text);
+    font-size: var(--h2);
+    font-weight: bold;
+}
+
+
 .sponsors {
   display: flex;
   flex-direction: row;

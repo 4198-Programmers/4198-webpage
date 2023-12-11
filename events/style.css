@@ -1,3 +1,30 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+    --text: #f0f0f0;
+    --secondary-text: #cbd3da;
+    --bg: #130810;
+    --primary: #5c2f54;
+    --secondary: #3b2e3e;
+    --accent: #bd84ff;
+    --font-scale: 1.333;
+    --p: 1rem;
+    --h5: calc(var(--p) * var(--font-scale));
+    --h4: calc(var(--h5) * var(--font-scale));
+    --h3: calc(var(--h4) * var(--font-scale));
+    --h2: calc(var(--h3) * var(--font-scale));
+    --h1: calc(var(--h2) * var(--font-scale));
+    --small: calc(var(--p) / var(--font-scale));
+
+    --margin-lg: 0 12%;
+    --margin-md: 0 6%;
+
+    --border1: 1rem;
+    --border05: 0.5rem;
+}
+
+* {
+    font-family: 'Poppins', ui-sans-serif;
+}
 .BAH {
     font-size: 350px;
     color: white;
