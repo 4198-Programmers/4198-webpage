@@ -31,10 +31,6 @@
     color: white;
   }
   
-  .hmmm {
-    background-color: #24192b00;
-  }
-  
   body {
     min-height: 100vh;
     display: flex;
@@ -185,7 +181,14 @@
 .profile-text {
     line-height: 175%;
     font-size: 100%;
-    width: 50px
+    width: 50px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.no-wrap {
+    white-space: nowrap;
+    flex-wrap: nowrap;
 }
 
 .image-thing {
@@ -281,7 +284,7 @@
     .profile-text {
         line-height: 200%;
         font-size: 175%;
-        width: 300px;
+        width: 500px;
     }
 
     .hehe-text {
@@ -303,7 +306,7 @@
     padding-top: 5%;
 }
 
-@media (max-width: 1125px) {
+@media (max-width: 1200px) {
 
     .person {
         width: 100%;
@@ -312,10 +315,10 @@
     }
 }
 
-@media (min-width: 1126px) {
+@media (min-width: 1201px) {
 
     .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-        max-width: 1300px;
+        max-width: 1400px;
       }
 
     .person {
