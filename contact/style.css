@@ -1,142 +1,13 @@
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    max-height: 100%;
-    background-image: linear-gradient(to top, #130810, #271121) !important;
-  }
-  
-  h1 {
-    color: white;
-  }
-  
-  p {
-    color: rgb(200, 200, 200);
-  }
-  
-  .text {
-    color:rgb(200, 200, 200);
-  }
-  
-  .link-light {
-    color: #f8f9fa;
-  }
-  
-  .link-light:hover {
-    color:#f9fafb;
-  }
-  
-  .footer {
-    margin-top: auto;
-  }
-  
-  .scale-button {
+/* For all changes to all of the pages, change copyme.css */
+@import url('/copyme.css');
+
+.scale-button {
     transition: 0.25s;
-  }
-  
-  .scale-button:hover {
+}
+
+.scale-button:hover {
     transform: scale(1.08);
-  }
-  
-  .dropdown-menu {
-    display: block;
-    visibility: hidden;
-    opacity: 0;
-    transform: translateY(0px);
-    transition: 0.25s ease all;
-  }
-  
-  .dropdown-menu.show {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(5%);
-    transition: 0.25s ease all;
-  }
-  
-  .dropdown-menu.show::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background-color: #cbd3da;
-    color: transparent;
-    width: 0%;
-    height: 3px;
-    transition: all 10.5s;
-  }
-  
-  .navbar .navbar-nav .nav-link {
-    color: #cbd3da;
-    font-size: 1.1em;
-    position: relative;
-  }
-  
-  .navbar .navbar-nav .nav-link:hover {
-    color: #cbd3da;
-  }
-  
-  .navbar .navbar-nav .nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background-color: #cbd3da;
-    color: transparent;
-    width: 0%;
-    height: 3px;
-    transition: all 0.5s;
-  }
-  
-  .navbar .navbar-nav .nav-link:hover::after {
-    width: 100%;
-  }
-  
-  .navbar .navbar-nav .nav-link.special::after {
-    content: '';
-    width: 100%;
-  }
-  
-  .pointer {
-    cursor: pointer;
-  }
-  
-  .dropdown-divider {
-    width: 80%;
-    margin: auto;
-  }
-  
-  .dropdown-item {
-    text-align: center;
-  }
-  
-  .dropdown-item:hover {
-      background-color: #54376d;
-  }
-  
-  .dropdown-center {
-    right: auto;
-    left: -30%;
-  }
-  
-  .ms-3 {
-    margin-left: 1rem !important;
-  }
-  
-  .flex-wrap {
-    flex-wrap: wrap !important;
-  }
-  
-  @media (min-width: 1400px) {
-    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-      max-width: 1320px;
-    }
-    
-  }
+}
 
 .profile-text {
     line-height: 175%;
@@ -153,94 +24,118 @@ body {
 }
 
 .image-thing {
-  height: 50px;
-  width: 50px;
+    height: 50px;
+    width: 50px;
 }
 
-.hehe-text {
+.header-text {
     white-space: nowrap;
     font-size: 16px;
     width: fit-content;
     text-align: center;
-    margin:0 auto;
-  }
+    margin: 0 auto;
+}
 
-    @media (max-width: 400px)  {
-      .image-thing {
+@media (max-width: 400px) {
+    .image-thing {
         height: 125px;
         width: 125px;
-      }
-
-      .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-          max-width: 300px;
-        }
-
-     .profile-text {
-          line-height: 175%;
-          font-size: 75%;
-          width: 150px;
-      }
-
-      .hehe-text {
-        font-size: 32px;
-      }
     }
 
-  @media (min-width: 401px) {
-    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-        max-width: 350px;
-      }
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 300px;
+    }
 
-      .image-thing {
+    .profile-text {
+        line-height: 175%;
+        font-size: 75%;
+        width: 150px;
+    }
+
+    .header-text {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 401px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 350px;
+    }
+
+    .image-thing {
         height: 150px;
         width: 150px;
-      }
-      
-      .profile-text {
+    }
+
+    .profile-text {
         line-height: 175%;
         font-size: 125%
     }
-    .profile-text {
-      line-height: 175%;
-      font-size: 110%;
-      width: 170px
-    }
-    .hehe-text {
-        font-size: 32px;}
-  }
 
-  @media (min-width: 550px) {
+    .profile-text {
+        line-height: 175%;
+        font-size: 110%;
+        width: 170px
+    }
+
+    .header-text {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 550px) {
 
     .image-thing {
-      height: 200px;
-      width: 200px;
+        height: 200px;
+        width: 200px;
     }
 
-    .hehe-text {
+    .header-text {
         font-size: 32px;
     }
 
-    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
         max-width: 540px;
-      }
-
-      .profile-text {
-          line-height: 175%;
-          font-size: 150%;
-          width: 230px
-      }
-  }
-
-  @media (min-width: 600px)  {
-
-    .image-thing {
-      height: 250px;
-      width: 250px;
     }
 
-    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    .profile-text {
+        line-height: 175%;
+        font-size: 150%;
+        width: 230px
+    }
+}
+
+@media (min-width: 600px) {
+
+    .image-thing {
+        height: 250px;
+        width: 250px;
+    }
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
         max-width: 600px;
-      }
+    }
 
     .profile-text {
         line-height: 200%;
@@ -248,13 +143,13 @@ body {
         width: 500px;
     }
 
-    .hehe-text {
+    .header-text {
         font-size: 64px;
     }
-  }
+}
 
 .circular-square {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 .person {
@@ -273,15 +168,20 @@ body {
 
 @media (min-width: 1201px) {
 
-    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
         max-width: 1400px;
     }
 
     .person {
-        width:50%
+        width: 50%
     }
 
-    .hehe-text {
+    .header-text {
         font-size: 64px;
     }
 
