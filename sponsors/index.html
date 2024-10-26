@@ -1,171 +1,122 @@
-
 <!DOCTYPE html>
 <html lang="en">
+<style>html {background-color: #130810;}</style> <!-- Makes it so you don't get flashbanged when you open up the page-->
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Sponsors - Team 4198</title>
-  
-  <link rel="shortcut icon" href="/Source/ROBOCATICON.svg" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="./style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  <meta property="og:title" content="RoboCats 4198">
-  <meta property="og:description"
-    content="The RoboCats are a FIRST Robotics High School Competition Team, Team 4198 from Waconia, Minnesota.">
-  <meta property="og:url" content="https://www.team4198.org">
-  <meta data-react-helmet="true" name="theme-color" content="#1c6db">
-  <meta property="og:image" content="https://raw.githubusercontent.com/4198-Programmers/4198-webpage/main/ROBOCATICON.svg">
-  <meta content="#7325a3" name="theme-color" />
-  <meta name="darkreader-lock">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sponsors - Team 4198</title>
+
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="/js/injection.js" type="text/javascript" defer></script>
+
+    <!-- Extra Header Content is injected here-->
+    <head-component></head-component>
 </head>
 
 <body>
 
-  <!-- Where Navbar Starts-->
-  <nav class="navbar navbar-expand-lg navbar-dark hmmm">
-    <div class="container-fluid">
-        <a href="/"><img src="/Source/ROBOCATICON.svg" alt="Robocats Logo" width="52.6" height="38"/></a>
-        <a class="navbar-brand px-lg-4" href="/">Team 4198</a>
-        <!-- Toggle button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <!--<li class="nav-item">
-              <a class="nav-link text-light" href="/yes">YES</a>
-            </li>-->
-            <li class="nav-item">
-              <a class="nav-link text-light px-sm-4" href="/about">About</a>
-            </li>
+    <!-- Header is Inserted Here -->
+    <navbar-component></navbar-component>
 
-            <li class="nav-item">
-              <a class="nav-link text-light px-sm-4" href="/contact">Contact Us</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link text-light px-sm-4" href="/events">Events</a>
-            </li>
-
-            <li class="nav-item">
-              <!-- <a class="nav-link disabled">Placeholder</a> -->
-              <a class="nav-link text-light px-sm-4" href="/sponsors">Sponsors</a>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-  <!-- Where the contnet of the page starts -->
+    <!-- Where the contnet of the page starts -->
 
     <h1 class="lead mb-4 border-bottom header-text">Thank you to all of our sponsors!</h1>
-    
+
     <div class="container px-4 py-4 my-2 text-center">
-       
-        
+
+
         <div class="sponsors float-left justify-content-center">
             <a href="https://www.isd110.org/" class="img-fluid" target="_blank">
-            <img class="sponsor d-flex img-fluid" src="/Source/Sponsors/WaconiaSchool.png" width="250" height="250">
+                <img class="sponsor d-flex img-fluid" src="/Source/Sponsors/WaconiaSchool.png" width="250" height="250">
             </a>
 
-          <a href="https://www.waconia.org/198/Fire-Department" class="img-fluid" target="_blank">
-            <img class="sponsor d-flex img-fluid" src="/Source/Sponsors/WaconiaFire.png" width="220" height="250">
-          </a>
+            <a href="https://www.waconia.org/198/Fire-Department" class="img-fluid" target="_blank">
+                <img class="sponsor d-flex img-fluid" src="/Source/Sponsors/WaconiaFire.png" width="220" height="250">
+            </a>
 
             <a href="https://www.medtronic.com/us-en/index.html" target="_blank">
-            <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/Medtronic.png" width="450" height="100">
+                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/Medtronic.png"
+                    width="450" height="100">
             </a>
 
             <a href="https://www.tapmagic.com/" target="_blank">
-              <img class="sponsor d-flex align-items-start img-fluid" src="/Source/Sponsors/tapmagiclogo.png" width="353" height="110">
+                <img class="sponsor d-flex align-items-start img-fluid" src="/Source/Sponsors/tapmagiclogo.png"
+                    width="353" height="110">
             </a>
 
             <a href="https://www.ridgeviewmedical.org/" target="_blank">
-                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/Ridgeview.png" width="400">
+                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/Ridgeview.png"
+                    width="400">
             </a>
 
             <a href="https://www.ifixit.com/" target="_blank">
-            <img class="sponsor d-flex align-items-start img-fluid" src="/Source/Sponsors/IFixit_logo.svg.png" width="353" height="110">
+                <img class="sponsor d-flex align-items-start img-fluid" src="/Source/Sponsors/IFixit_logo.svg.png"
+                    width="353" height="110">
             </a>
 
             <a href="https://www.pepsi.com/" target="_blank">
-            <img class="sponsor d-flex align-items-start img-fluid" src="/Source/Sponsors/Pepsi.png" width="200" height="110">
+                <img class="sponsor d-flex align-items-start img-fluid" src="/Source/Sponsors/Pepsi.png" width="200"
+                    height="110">
             </a>
 
             <a href="https://waconialionsclub.org/" target="_blank">
-                <img class="sponsor d-flex align-items-start img-fluid" src="/Source/Sponsors/waconialions.svg" width="300">
-              </a>
+                <img class="sponsor d-flex align-items-start img-fluid" src="/Source/Sponsors/waconialions.svg"
+                    width="300">
+            </a>
 
             <a href="https://nordicmanufacturing.com/" target="_blank">
-              <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/NordicComponentsCrop.png" width="300">
+                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/NordicComponentsCrop.png"
+                    width="300">
             </a>
 
             <a href="https://www.3m.com/" target="_blank">
-              <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/3M_wordmark.svg" width="300">
+                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/3M_wordmark.svg"
+                    width="300">
             </a>
 
             <a href="https://www.ups.com/" target="_blank">
-              <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/United_Parcel_Service.svg" width="200">
+                <img class="sponsor d-flex align-items-center img-fluid"
+                    src="/Source/Sponsors/United_Parcel_Service.svg" width="200">
             </a>
 
             <a href="https://portal.clubrunner.ca/6749/" target="_blank">
-                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/Rotary.png" width="420" height="250">
-              </a>
+                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/Rotary.png" width="420"
+                    height="250">
+            </a>
 
             <a href="https://www.amfam.com/" target="_blank">
-                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/american_family_insurance.svg" width="500">
+                <img class="sponsor d-flex align-items-center img-fluid"
+                    src="/Source/Sponsors/american_family_insurance.svg" width="500">
             </a>
 
             <a href="https://imagegraphicspremier.com/" target="_blank">
-                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/ImageGraphics.svg" width="300">
+                <img class="sponsor d-flex align-items-center img-fluid" src="/Source/Sponsors/ImageGraphics.svg"
+                    width="300">
 
 
         </div>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center" style="padding-top: 10%">
-         <a class="primary-button" href="/sponsors/why-become-sponsor">Why Become a Sponsor?</a>
-         <a class="primary-button" href="/sponsors/sponsor-benefits/">Sponsor Benefits</a>
-         <a class="primary-button" href="/sponsors/sponsor-form/">Sponsor Form</a>
+            <a class="primary-button" href="/sponsors/why-become-sponsor">Why Become a Sponsor?</a>
+            <a class="primary-button" href="/sponsors/sponsor-benefits/">Sponsor Benefits</a>
+            <a class="primary-button" href="/sponsors/sponsor-form/">Sponsor Form</a>
         </div>
     </div>
 
-  <!-- Where the footer starts -->
+    <!-- Footer is inserted here -->
+    <footer-component></footer-component>
 
-  <div class="container footer">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <span class="text">2024 RoboCats</span>
-      </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="link-light" href="https://www.instagram.com/4198robocatsofficial" target="_blank"><i
-                class="fa fa-instagram"></i></a></li>
-        <li class="ms-3"><a class="link-light" href="https://twitter.com/robocats_4198" target="_blank"><i class="fa fa-twitter"></i></a>
-        <li class="ms-3"><a class="link-light" href="https://www.facebook.com/RoboCats4198" target="_blank"><i class="fa fa-facebook"></i></a>
-        <li class="ms-3"><a class="link-light" href="https://github.com/4198-Programmers" target="_blank"><i class="fa fa-github"></i></a>
-        <li class="ms-3"><a class="link-light" href="https://www.youtube.com/@RoboCats4198/featured" target="_blank"><i class="fa fa-youtube"></i></a>
-        <li class="ms-3"><a class="link-light" href="https://www.tiktok.com/@team4198" target="_blank"><img src="/Source/Photos/tiktok.svg" width="10em" /></a></li>
-        <li class="ms-3"><a href="https://www.thebluealliance.com/team/4198/" target="_blank"> <img src="/Source/Photos/tba.png" width="10em" /></a></li>
-      </ul>
-    </footer>
-  </div>
-  
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-   
-  <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>

@@ -26,6 +26,10 @@
     --border1: 1rem;
     --border05: 0.5rem;
 }
+.navbar-dark .navbar-nav .nav-link {
+    font-family: "Six Caps";
+    font-size: xx-large;
+  }
 
 * {
     font-family: 'Poppins', ui-sans-serif;
@@ -44,6 +48,10 @@ body {
     background-image: linear-gradient(to top right, #130810, #271121);
     max-height: 100%;
     /* background-color: rgb(37, 42, 46); */
+}
+
+html {
+    background-color: #130810;
 }
 
 .first-gradient {
@@ -83,6 +91,10 @@ p {
     margin-top: auto;
 }
 
+footer-component {
+    margin-top: auto;
+}
+
 .dropdown-menu {
     display: block;
     visibility: hidden;
@@ -117,6 +129,7 @@ p {
     color: #cbd3da;
     font-size: 1.1em;
     position: relative;
+    font-family: 'Poppins';
 }
 
 .navbar .navbar-nav .nav-link:hover {
