@@ -1,11 +1,6 @@
 /* For all changes to all of the pages, change copyme.css */
 @import url('/copyme.css');
 
-.BAH {
-    font-size: 350px;
-    color: white;
-}
-
 .scale-button {
     transition: 0.25s;
 }

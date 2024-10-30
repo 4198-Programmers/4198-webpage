@@ -8,7 +8,7 @@ class Navbar extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML += `
-    <nav class="navbar navbar-expand-lg navbar-dark hmmm">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a href="/"><img src="/Source/ROBOCATICON.svg" alt="Robocats Logo" width="52.6" height="38"/></a>
             <a class="navbar-brand px-lg-4" href="/">Team 4198</a>
